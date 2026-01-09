@@ -188,3 +188,37 @@ ul li a{
     color: black ;
     font-weight: 550;
 }
+
+/* last */
+
+.last-container{
+    text-align: center;
+    /* background: aqua; */
+    padding: 40px 40px;
+    height: 300px;
+    
+}
+.last-text{
+    background: rgba(0, 0, 0, 0.103);
+    padding: 70px 50px;
+    height: 280px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.last-text h1{
+    font-size:35px ;
+    margin-bottom: 10px;
+}
+.last-text p{
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.649) ;
+    margin-bottom: 15px;
+}
+.last-text .btn{
+    margin-bottom: 15px;
+}
+.last-text h3{
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.649) ;
+}
