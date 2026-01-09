@@ -222,3 +222,31 @@ ul li a{
     font-size: 13px;
     color:rgba(0, 0, 0, 0.649) ;
 }
+
+/* footer */
+.footer-section{
+    background: #000000cd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px;
+    /* border-bottom: 2px solid aqua; */
+}
+.footer-text{
+    margin-right: 130px;
+    /* border-bottom: 2px solid aqua; */
+}
+.footer-text a{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.666);
+    text-decoration: none;
+}
+.footer-icon a i{
+    font-size: 18px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+a .footer-an{
+    margin-right: 40px;
+}
