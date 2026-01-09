@@ -85,12 +85,16 @@ ul li a{
 }
 
 .hero-btn .btn{
+    transition: .4s ease-in-out;
     margin-right: 10px;
-    background-color:  rgba(25, 193, 25, 0.948);
+    background-color:  rgba(25, 193, 25, 0.24);
     
 }
 .hero-btn .btn:hover{
-    color: black;
+    color: white;
+    padding: 7px 10px;
+    background: transparent;
+    border: 1px solid white;
 }
 .hero-btn .btn-1{
     padding: 8px 10px;
@@ -100,6 +104,10 @@ ul li a{
     border: 1px solid white;
     border-radius: 8px;
     cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.hero-btn .btn-1:hover{
+    background-color:  rgba(25, 193, 25, 0.24);
 }
 /* card section */
 .card-container{
@@ -224,17 +232,17 @@ ul li a{
 }
 
 /* footer */
+.footer{
+     background: #000000; 
+}
 .footer-section{
-    background: #000000cd;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 50px;
-    /* border-bottom: 2px solid aqua; */
+    padding:70px 50px;
 }
 .footer-text{
     margin-right: 130px;
-    /* border-bottom: 2px solid aqua; */
 }
 .footer-text a{
     font-size: 18px;
@@ -249,4 +257,13 @@ ul li a{
 }
 a .footer-an{
     margin-right: 40px;
+}
+.footer-last-text {
+    padding: 0 60px;
+}
+.footer-last-text p{
+    color: rgb(116, 147, 162);
+    text-align: center;
+    padding: 25px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.24);
 }
